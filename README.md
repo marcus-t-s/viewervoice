@@ -2,7 +2,8 @@
 ## 🏁Introduction  
 Welcome to ViewerVoice, the tool that allows you to gain insights into what viewers have commented under a YouTube video. We created this dashboard particularly to help YouTubers better understand their audience and allow for data-driven decision making, enabling them to strategise and build their brand. As well as to help brands understand the audience of potential Creators they are looking to partner with.
 
-This dashboard is still under development; further updates will be implemented in due course. Please note that at present the source code is not public however, please feel free to raise suggestions or issues you encounter here. To try out ViewerVoice firsthand please refer to the following link.
+This dashboard is still under development; further updates will be implemented in due course. Please note that at present the source code is not public however, please feel free to raise suggestions or issues you encounter here. To try out ViewerVoice firsthand please refer to the following link.  
+https://viewervoice.streamlit.app/
 
 ## 🚶‍♂️Walkthrough  
 ### 🗨️Retrieving YouTube Comments  
