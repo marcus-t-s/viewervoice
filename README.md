@@ -1,4 +1,9 @@
 # ViewerVoice
+
+<p align="center">
+<img width="606" alt="image" src="https://github.com/marcus-t-s/viewervoice/assets/40894018/6391080a-d6da-45cc-9467-4159b0b74423">
+</p>
+
 ## 🏁Introduction  
 Welcome to ViewerVoice, the tool that allows you to gain insights into what viewers have commented under a YouTube video. We created this dashboard particularly to help YouTubers better understand their audience and allow for data-driven decision making, enabling them to strategise and build their brand. As well as to help brands understand the audience of potential creators they are looking to partner with.
 
