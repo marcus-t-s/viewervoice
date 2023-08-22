@@ -1,6 +1,6 @@
 # ViewerVoice
 ## 🏁Introduction  
-Welcome to ViewerVoice, the tool that allows you to gain insights into what viewers have commented under a YouTube video. We created this dashboard particularly to help YouTubers better understand their audience and allow for data-driven decision making, enabling them to strategise and build their brand. As well as to help brands understand the audience of potential Creators they are looking to partner with.
+Welcome to ViewerVoice, the tool that allows you to gain insights into what viewers have commented under a YouTube video. We created this dashboard particularly to help YouTubers better understand their audience and allow for data-driven decision making, enabling them to strategise and build their brand. As well as to help brands understand the audience of potential creators they are looking to partner with.
 
 This dashboard is still under development; further updates will be implemented in due course. Please note that at present the source code is not public however, please feel free to raise suggestions or issues you encounter here. To try out ViewerVoice firsthand please refer to the following link.  
 https://viewervoice.streamlit.app/
@@ -17,7 +17,7 @@ ViewerVoice covers the following areas of NLP driven by BERT based models.
 
 **Sentiment analysis** identifies whether comments are positive, negative or neutral. This provides you with an overview of viewers feel toward aspects of the content. Please note that at present, the sentiment analysis does not take emojis into account.
 
-**Semantic search** allows you to not only search for comments with exact matches to input words or phrases, but also for comments that contain similar words. For example, if you search for the word 'music', comments containing 'music' as well as 'song' and 'vinyl' can show up. This feature enables you to search for specifics in a comment section. For example, perhaps you are a YouTuber that has collaborated with another Creator or advertised for a brand you have partnered with, you can search for the name of the Creator or brand in your comments to see how your viewers reacted to this.
+**Semantic search** allows you to not only search for comments with exact matches to input words or phrases, but also for comments that contain similar words. For example, if you search for the word 'music', comments containing 'music' as well as 'song' and 'vinyl' can show up. This feature enables you to search for specifics in a comment section. For example, perhaps you are a YouTuber that has collaborated with another creator or advertised for a brand you have partnered with, you can search for the name of the creator or brand in your comments to see how your viewers reacted to this.
 
 ### 📊Creating a Streamlit WebApp   - Marcus
 
