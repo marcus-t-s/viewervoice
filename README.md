@@ -22,7 +22,7 @@ ViewerVoice covers the following areas of NLP driven by BERT based models.
 
 **Sentiment analysis** identifies whether comments are positive, negative or neutral. This provides you with an overview of viewers feel toward aspects of the content. Please note that at present, the sentiment analysis does not take emojis into account.
 
-**Semantic search** allows you to not only search for comments with exact matches to input words or phrases, but also for comments that contain similar words. For example, if you search for the word 'music', comments containing 'music' as well as 'song' and 'vinyl' can show up. This feature enables you to search for specifics in a comment section. For example, perhaps you are a YouTuber that has collaborated with another creator or advertised for a brand you have partnered with, you can search for the name of the creator or brand in your comments to see how your viewers reacted to this.
+**Semantic search** allows you to not only search for comments with exact matches to input words, but also for comments that contain similar words. For example, if you search for the word 'music', comments containing 'music' as well as 'song' and 'vinyl' can show up. This feature enables you to search for keywords in a comment section. For example, perhaps you are a YouTuber that has collaborated with another creator or advertised for a brand you have partnered with, you can search for the name of the creator or brand in your comments to see how your viewers reacted to this.
 
 ### 📊Creating a Streamlit WebApp   - Marcus
 
