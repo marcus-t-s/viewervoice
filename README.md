@@ -25,7 +25,7 @@ ViewerVoice covers the following areas of NLP driven by BERT based models.
 - **Semantic search** allows you to not only search for comments with exact matches to words, but also for comments that contain similar words. For example, if you search for 'music', comments containing 'music' as well as 'song' and 'vinyl' can show up. This feature enables you to search for specifics in a comment section - for example, perhaps you are a YouTuber that has collaborated with another creator or advertised for a brand you have partnered with, you can search for the name of the creator or brand in your comments to see how your viewers reacted to this.
 
 ### 📊Creating a Streamlit WebApp
-Streamlit is an open-source Python tool that enables the creation and sharing of data science web applications. Leveraging Streamlit's versatile functions, we've tailored our dashboard to cover a range of essential features, such as:
+Streamlit is an open-source Python library that enables the creation and sharing of data science web applications. Leveraging Streamlit's versatile functions, we've tailored our dashboard to cover a range of essential features, such as:
 
 - Interactive input widgets: allowing users to query their preferred videos and apply personalised filters.
 - Comprehensive Python graphs: seamlessly integrating a variety of visualisations into the app.
