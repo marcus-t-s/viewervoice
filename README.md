@@ -16,7 +16,7 @@ https://huggingface.co/spaces/viewervoice-analytics/viewervoice/discussions
 ## 🚶‍♂️Walkthrough  
 ### 🗨️Retrieving YouTube Comments  
 To retrieve comments we used the YouTube Data API which provides various functionalities, including retrieving YouTube comments. At present we do not read in comment replies. Please refer to the instructions provided in the following link to acquire your unique API key. Please be aware that each API key facilitates up to 10,000 API calls within a 24-hour period.  
-https://developers.google.com/youtube/v3/getting-started
+[https://medium.com/beyond-the-views-how-viewervoice-enriches-content-performance-analytics](https://medium.com/@afibannor/beyond-the-views-how-viewervoice-enriches-content-performance-analytics-3c46854db697?source=friends_link&sk=042267d3c0ed460c3ad0743ec4e16456)
 
 ### 👩‍💻Implementing Natural Language Processing Models  
 ViewerVoice covers the following areas of NLP driven by BERT based models.
