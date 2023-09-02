@@ -1,0 +1,20 @@
+streamlit
+numpy==1.24.4
+urllib3==1.26.16
+beautifulsoup4==4.12.2
+git+https://github.com/scikit-learn-contrib/hdbscan.git
+bertopic==0.15.0
+contractions==0.1.73
+google_api_python_client==2.96.0
+pandas==1.5.3
+python-dotenv==1.0.0
+scikit_learn==1.2.2
+sentence_transformers==2.2.2
+spacy==3.6.1
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0.tar.gz
+torch==2.0.1
+transformers==4.31.0
+umap==0.1.1
+umap_learn==0.5.3
+wordcloud==1.9.2
+#need to install C++ this for hbscan https://visualstudio.microsoft.com/visual-cpp-build-tools/
