@@ -25,7 +25,6 @@ if not os.path.exists('repo_directory'):
 
 from repo_directory.all_utils import *
 
-
 # Streamlit configuration
 st.set_page_config(
     page_title="ViewerVoice | YouTube Comment Analyser",
@@ -176,7 +175,7 @@ with main_page:
         <li style='font-size: 0.95rem;'>This dashboard is still under development; further updates will be implemented 
         in due course.</li>
         <li style='font-size: 0.95rem;'>Kindly refer to the instructions provided in this 
-        <a href='https://developers.google.com/youtube/v3/getting-started'>link</a>. 
+        <a href='https://medium.com/@afibannor/beyond-the-views-how-viewervoice-enriches-content-performance-analytics-3c46854db697?source=friends_link&sk=042267d3c0ed460c3ad0743ec4e16456'>link</a>. 
         This will guide you in acquiring your API key to retrieve comments.</li>
         <li style='font-size: 0.95rem;'>Please be aware that each API key facilitates up to 10,000 API calls within 
         a 24-hour period.</li>
@@ -208,7 +207,7 @@ if (st.session_state.rerun_button == "QUERYING") and (st.session_state["video_li
         try:
             yt_parser.query_comments(st.session_state['video_link'], st.session_state['max_comments'])
         except googleapiclient.errors.HttpError:
-            st.error("Error: Unable to query comments, please check your API key.")
+            st.error("Error: Unable to query comments, incorrect YouTube URL or API key.")
             st.stop()
         except:
             st.error("Error: Unable to query comments, incorrect YouTube URL or maximum \
@@ -216,12 +215,20 @@ if (st.session_state.rerun_button == "QUERYING") and (st.session_state["video_li
             st.stop()
 
         # Run formatting and models
-        yt_parser.format_comments()
-        yt_parser.clean_comments()
-        yt_parser.run_sentiment_pipeline(sentiment_pipeline)
-        yt_parser.run_topic_modelling_pipeline(embedding_model,
-                                               nlp=spacy_nlp,
-                                               max_topics=st.session_state['max_topics'])
+        try:
+            yt_parser.format_comments()
+            yt_parser.clean_comments()
+            yt_parser.run_sentiment_pipeline(sentiment_pipeline)
+            yt_parser.run_topic_modelling_pipeline(embedding_model,
+                                                   nlp=spacy_nlp,
+                                                   max_topics=st.session_state['max_topics'])
+        except ValueError:
+            st.error("Error: Oops there are not enough comments to analyse, please try a different video.")
+            st.stop()
+        except:
+            st.error("Error: Oops there's an issue on our end, please wait a moment and try again.")
+            st.stop()
+            
     # Set "QUERY COMPLETE" to bypass running this section on script re-run
     st.session_state.rerun_button = "QUERY COMPLETE"
 
